@@ -1,0 +1,51 @@
+<% provide(:title, 'GeoIP Lookup') %>
+
+<div class='col-xs-offset-3'>
+  <div class='content-header'>
+    <div class='header-inner'>
+      <h2>GeoIP Lookup</h2>
+
+      <p class='subheader'>
+        Enter IP addresses (separate by comma or enter to new line) to fetch IP information
+      </p>
+    </div>
+  </div>
+
+  <%= form_tag({ controller: 'geoip_lookup', action: 'index' }, method: 'get', class: 'form-horizontal') do %>
+    <div class='form-group'>
+      <%= label_tag(:ip_input, 'IP address', class: 'col-sm-2 control-label') %>
+      <div class='col-sm-5'>
+        <%= text_area_tag :ip_input, nil, size: '25x5', class: 'form-control', placeholder: 'Enter IP to check' %>
+      </div>
+    </div>
+
+    <div class='form-group'>
+      <div class='col-sm-offset-2 col-sm-2'>
+        <%= submit_tag('Lookup GeoIP', class: 'btn btn-success') %>
+      </div>
+    </div>
+  <% end %>
+</div>
+<br>
+<div class='geoip_lookup'>
+  <% if @ip_inputs.size > 0 %>
+    <div class="table-responsive">
+      <table>
+        <tr>
+          <th>IP</th>
+          <% @geoip_config.each do |config| %>
+            <th><%= config[:env] %></th>
+          <% end %>
+        </tr>
+        <% @ip_inputs.each do |ip_input| %>
+          <tr>
+            <td><%= ip_input[:ip] %></td>
+            <% ip_input[:endpoints].each do |endpoint| %>
+              <td><%= link_to(endpoint[:body], endpoint[:url]) %></td>
+            <% end %>
+          </tr>
+        <% end %>
+      </table>
+    </div>
+  <% end %>
+</div>

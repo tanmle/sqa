@@ -1,0 +1,31 @@
+<% provide(:email, @account.email) %>
+<div class="col-xs-offset-3">
+  <% if @account.device != "Remove license only" %>
+    <h4>The following devices have been removed:</h4>
+    <ul>
+      <% arr = @account.device.split(',')
+      if arr.count == 0 %>
+        <p class="text-danger">No device links to this account</p>
+      <% else
+        arr.each do |el| %>
+          <li>
+            <%= el %>
+          </li>
+        <% end
+      end %>
+    </ul>
+  <% end %>
+  <h4>The following licenses have been removed:</h4>
+  <ul>
+    <% arr = @account.license.split(',')
+    if arr.count == 0 %>
+      <p class="text-danger">No licenses links to this account</p>
+    <% else
+      arr.each do |el| %>
+        <li>
+          <%= el %>
+        </li>
+      <% end
+    end %>
+  </ul>
+</div>

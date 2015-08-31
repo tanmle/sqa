@@ -1,0 +1,46 @@
+<% provide(:title, 'EP Catalog uploading') %>
+<div class='glb-loader'>
+  <div></div>
+</div>
+<div class='col-xs-offset-3'>
+  <div class='content-header'>
+    <div class='header-inner'>
+      <h2>Upload AppCenter Catalog file</h2>
+      <p class='subheader'>
+        This function is used to upload AppCenter Catalog file that support for SEO title checking.<br/>
+        Please let importing data in the first sheet and the data's header at the first row.
+      </p>
+    </div>
+  </div>
+  <%= form_tag({ controller: 'eps', action: 'upload_catalog' }, method: 'post', multipart: true, class: 'form-horizontal') do %>
+    <div class='form-group'>
+      <%= label_tag(:excel_file, 'Catalog file', class: 'col-sm-2 control-label') %>
+      <div class="col-sm-5">
+        <div class="input-group">
+          <input type="text" class="form-control" readonly>
+        <span class="input-group-btn">
+          <span class="btn btn-default btn-file">
+            Browse&hellip;<%= file_field_tag :catalog_file %>
+          </span>
+        </span>
+        </div>
+      </div>
+    </div>
+    <div class='form-group'>
+      <div class='col-sm-offset-2 col-sm-2'>
+        <%= submit_tag('Upload file', class: 'btn btn-success', onclick: 'return fn_import();') %>
+      </div>
+    </div>
+    <div class='form-group'>
+      <div>
+        <%= raw @message %>
+      </div>
+    </div>
+  <% end %>
+</div>
+<script type='text/javascript'>
+  function fn_import() {
+    $('.glb-loader').show();
+    return;
+  }
+</script>

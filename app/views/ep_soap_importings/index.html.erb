@@ -1,0 +1,55 @@
+<% provide(:title, 'EP SOAP Importing') %>
+<div class='glb-loader'>
+  <div></div>
+</div>
+
+<div class='col-xs-offset-3'>
+  <div class='content-header'>
+    <div class='header-inner'>
+      <h2>EP SOAP importing</h2>
+      <p class='subheader'>
+        * Note: Select English or French language then click to import SOAP
+      </p>
+    </div>
+  </div>
+
+  <%= form_tag({ controller: 'ep_soap_importings', action: 'soap2db' }, method: 'post', class: 'form-horizontal') do %>
+    <div class='form-group'>
+      <%= label_tag :language, 'Language', class: 'col-sm-2 control-label' %>
+      <div class='col-sm-5'>
+        <div id='language' class='btn-group btn-group-sm hidden-input'>
+          <% [['English', 'english'], ['French', 'french']].each do |l| %>
+            <label class='btn btn-default'>
+              <%= radio_button_tag :language, l[1] %><span><%= l[0] %></span>
+            </label>
+          <% end %>
+        </div>
+      </div>
+    </div>
+
+    <div class='form-group'>
+      <div class='col-sm-offset-2 col-sm-2'>
+        <%= submit_tag('Import data', class: 'btn btn-success js-validate-env-locale', :onclick => 'return fn_import();') %>
+      </div>
+    </div>
+
+    <div class='form-group'>
+      <div>
+        <%= raw @message %>
+      </div>
+      <%= hidden_field_tag(:hid_selected_language, session[:hid_selected_language]) %>
+    </div>
+  <% end %>
+</div>
+
+<script type='text/javascript'>
+  $(document).ready(function () {
+    $("input[value='english']").attr('checked', true);
+    $('label:has(input:checked)').addClass('active');
+  });
+
+  function fn_import() {
+    $('.glb-loader').show();
+    return;
+  }
+</script>

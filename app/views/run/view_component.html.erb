@@ -1,0 +1,60 @@
+<h1>
+  <%=raw @breadcrumbs %>
+</h1>
+<% if @current_date %>
+  <h2>
+    <small><%= link_to raw('<span class="glyphicon glyphicon-chevron-left"/>'), "/#{@silo}/view/#{@previous_date}" %></small>
+    <%= @current_date %>
+    <small><%= link_to raw('<span class="glyphicon glyphicon-chevron-right"/>'), "/#{@silo}/view/#{@next_date}" %></small>
+  </h2>
+<% end %>
+<div class="row">
+  <div class="result">
+    <fieldset>
+      <div>
+      </div>
+      <br/>
+      <div class="summary"><%= raw @running_summary %></div>
+      <div class="table-responsive">
+        <table class="summary_table">
+          <% if @level == 0 %>
+            <thead>
+            <tr class="highlights">
+              <th>Test Runs</th>
+              <th colspan="2">Actions</th>
+            </tr>
+            </thead>
+            <tbody><%= raw @content %></tbody>
+          <% elsif @level == 1 %>
+            <thead>
+            <tr class="highlights">
+              <th>Test Run</th>
+              <th>Updated</th>
+              <th colspan="2">Actions</th>
+            </tr>
+            </thead>
+            <tbody><%= raw @content %></tbody>
+          <% else %>
+            <thead>
+            <tr class="highlights">
+              <th>Link</th>
+              <th>Status</th>
+              <th>Duration</th>
+            </tr>
+            </thead>
+            <tbody>
+            <% @test_script.each_with_index do |c, index| %>
+              <tr class="<%= c[:css_class] %>">
+                <td><%= '%02d' % (index + 1) %>. <a class="<%= c[:css_class] %>" href="<%= c[:url] %>"><%= c[:case_name] %></a></td>
+                <td><%= c[:case_status].to_s.upcase %></td>
+                <td><%= c[:duration].to_s.upcase %></td>
+              </tr>
+            <% end %>
+            </tbody>
+          <% end %>
+        </table>
+      </div>
+      <br/>
+    </fieldset>
+  </div>
+</div>

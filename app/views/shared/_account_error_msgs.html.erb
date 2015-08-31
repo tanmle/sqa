@@ -1,0 +1,5 @@
+<% if @account.errors.any? %>
+	<div class="alert alert-error">
+		<%= @account.errors.full_messages[0] %>
+	</div>
+<% end %>

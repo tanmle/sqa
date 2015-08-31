@@ -1,0 +1,3 @@
+class Sqaauto1242F6q2S12TestcentralIndexJsonBlobs < ActiveRecord::Migration
+  # Migration moved to 20150716232010_sqaauto_1242_f6q2_s12_testcentral_index_json_blobs_1
+end

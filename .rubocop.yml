@@ -1,0 +1,42 @@
+# Customizations for rubocop
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/MethodLength:
+  Max: 30
+
+# Relax of rules for phase 1
+# see - https://github.com/bbatsov/rubocop/blob/master/config/enabled.yml
+Metrics/ParameterLists:
+  Enabled: false
+Metrics/ClassLength:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Style/GlobalVars:
+  Enabled: false
+Style/NegatedIf:
+  Enabled: false
+Metrics/LineLength:
+  Enabled: false
+Metrics/MethodLength:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Style/SpaceAfterColon:
+  Enabled: false
+Lint/Eval:
+  Enabled: false
+Metrics/BlockNesting:
+  Enabled: false
+Style/BlockComments:
+  Enabled: false
+Style/FormatString:
+  Enabled: false
+Style/AccessorMethodName:
+  Enabled: false
+Style/WordArray: # requires %w() for arrays of words
+  Enabled: false

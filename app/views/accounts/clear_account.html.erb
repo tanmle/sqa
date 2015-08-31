@@ -1,0 +1,54 @@
+<% provide(:title, "Clear Account") %>
+<div class="col-xs-offset-3">
+  <div class="content-header">
+    <div class="header-inner">
+      <h2>Clear Account</h2>
+
+      <p class="subheader">
+        This will clear parent account of all devices and software licenses.
+        <br/>USE WITH CAUTION!!!
+      </p>
+    </div>
+  </div>
+  <%= form_for(:account, url: tools_resetacc_path, method: :get, html: { class: "form-horizontal" }) do |f| %>
+    <%= render 'shared/account_error_msgs' %>
+    <div class='form-group'>
+      <%= f.label :env, 'Environment', class: 'col-sm-2 control-label' %>
+      <div class='col-sm-5'>
+        <div id='env' class='btn-group btn-group-sm'>
+          <% ['QA', 'PROD'].each do |env| %>
+            <label class='btn btn-default hidden-input'>
+              <%= radio_button_tag :env, env %><span><%= env %></span>
+            </label>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class='form-group'>
+      <%= f.label :email, 'Parent e-mail', class: 'col-sm-2 control-label' %>
+      <div class='col-sm-5'>
+        <%= f.text_field :email, placeholder: 'e.g. example@abc.com', class: 'form-control' %>
+      </div>
+    </div>
+    <div class='form-group'>
+      <%= f.label :password, 'Password', class: 'col-sm-2 control-label' %>
+      <div class='col-sm-5'>
+        <%= f.password_field :password, class: 'form-control' %>
+      </div>
+    </div>
+    <div class='form-group'>
+
+      <div class='col-sm-offset-2 col-sm-5'>
+        <%= label_tag(:is_active) do %>
+          <%= check_box_tag(:is_active, 1, true) %>
+          <span>Remove license only</span>
+        <% end %>
+      </div>
+    </div>
+    <div class='form-group'>
+      <div class='col-sm-offset-2 col-sm-7'>
+        <%= f.submit 'Clear Account', class: 'btn btn-success js-validate-env-locale' %>
+      </div>
+    </div>
+  <% end %>
+</div>

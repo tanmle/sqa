@@ -1,0 +1,2041 @@
+﻿<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+   <S:Body>
+      <ns2:getProductFeedResponseWrapper xmlns:ns2="commerce:connect">
+         <return>
+            <Products>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58369-96914</ProductCode>
+                  <Name>Little Pim: German Volume 4</Name>
+                  <Description>Schönen Tag noch! Come along with Little Pim and friends as they spend a nice day playing with toys and exploring different rooms of their homes.</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58369-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="trailerLink">
+                        <Name>Trailer Link</Name>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769841</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early German Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>58 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-01-22</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>German</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimGermanV4-Foreign.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: German Volume 4</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58369-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: German Volume 4</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Schönen Tag noch! Come along with Little Pim and friends as they spend a nice day playing with toys and exploring different rooms of their homes. Meet new characters, and encounter 60 German words and phrases about household activities. (35&amp;#45;minute video) &lt;br />&lt;br />Boost your German vocabulary with other Little Pim videos&amp;#8211;also available in the LeapFrog App Center.</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58500-96914</ProductCode>
+                  <Name>Jim and the Lost Gems</Name>
+                  <Description>Jump into the action and help Jim recover the Lost Gems of an ancient Egyptian artifact! Explore 30 levels on this epic quest that travels from city to forest and temple to tomb.</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>7.5</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58500-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_ONE_OF_MANY_SET2</CategoryCode>
+                     <CategoryCode>LPAD_GAMES</CategoryCode>
+                     <CategoryCode>LSTR_GAMES</CategoryCode>
+                     <CategoryCode>LSTR_ONE_OF_MANY_SET2</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>060-096</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="screenshots">
+                        <Name>Screenshot Files(LSTR=file1.png,file2.png;LPAD=file1.png,file2.png)</Name>
+                        <Values>LSTR=JimandtheLostGems_01.png,JimandtheLostGems_02.png,JimandtheLostGems_03.png,JimandtheLostGems_04.png,JimandtheLostGems_05.png||||LPAD=JimandtheLostGems_01.png,JimandtheLostGems_02.png,JimandtheLostGems_03.png,JimandtheLostGems_04.png,JimandtheLostGems_05.png</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1572941</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Puzzle Solving,Logic Skills</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>10 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-02-19</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                        <Values>5</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Problem Solving</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="trailerSizes">
+                        <Name>Trailer Sizes(LSTR=Wxh,LPAD=WxH)</Name>
+                        <Values>LSTR=480x272,LPAD=480x272</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>96</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 2</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Game</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>JimLostGems-Game.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Jim and the Lost Gems</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58500-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>60</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Jim and the Lost Gems</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Jump into the action and help Jim recover the Lost Gems of an ancient Egyptian artifact! Explore 30 levels on this epic quest that travels from city to forest and temple to tomb. Scale skyscrapers, swing from tree branches and search a sunken shipwreck. Put your problem&amp;#45;solving skills to the test and collect as many gems as you can, but keep a close eye on Jim to figure out which gems to collect first. Show off your logic skills to collect all the gems in each level. Get them all and earn a triple&amp;#45;star rating!</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>leapfrogcharacters</Values>
+                        <Values>adventureapps</Values>
+                        <Values>puzzleapps</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58371-96914</ProductCode>
+                  <Name>Little Pim: Italian Volume 4</Name>
+                  <Description>Buona giornata! Come along with Little Pim and friends as they spend a nice day playing with toys and exploring different rooms of their homes.</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58371-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="trailerLink">
+                        <Name>Trailer Link</Name>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="screenshots">
+                        <Name>Screenshot Files(LSTR=file1.png,file2.png;LPAD=file1.png,file2.png)</Name>
+                        <Values>LSTR=PimItalianVol04_01.png,PimItalianVol04_02.png,PimItalianVol04_03.png,PimItalianVol04_04.png||||LPAD=PimItalianVol04_01.png,PimItalianVol04_02.png,PimItalianVol04_03.png,PimItalianVol04_04.png</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769842</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Italian Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>58 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-03-05</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Italian</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="trailerSizes">
+                        <Name>Trailer Sizes(LSTR=Wxh,LPAD=WxH)</Name>
+                        <Values>LSTR=480x272,LPAD=480x272</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimItalianV4-Foreign.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: Italian Volume 4</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58371-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: Italian Volume 4</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Buona giornata! Come along with Little Pim and friends as they spend a nice day playing with toys and exploring different rooms of their homes. Meet new characters, and encounter 60 Italian words and phrases about household activities. (34&amp;#45;minute video) &lt;br />&lt;br />Boost your Italian vocabulary with other Little Pim videos&amp;#45also available in the LeapFrog App Center.</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58367-96914</ProductCode>
+                  <Name>Little Pim: Spanish Volume 5</Name>
+                  <Description>Join Little Pim and his friends as they explore 60 Spanish words and phrases to describe feelings, from happy to sad.</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58367-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="trailerLink">
+                        <Name>Trailer Link</Name>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="screenshots">
+                        <Name>Screenshot Files(LSTR=file1.png,file2.png;LPAD=file1.png,file2.png)</Name>
+                        <Values>LSTR=PimSpanishVol05_01.png,PimSpanishVol05_02.png,PimSpanishVol05_03.png,PimSpanishVol05_04.png||||LPAD=PimSpanishVol05_01.png,PimSpanishVol05_02.png,PimSpanishVol05_03.png,PimSpanishVol05_04.png</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769958</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Spanish Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>61 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-04-02</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Spanish</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="trailerSizes">
+                        <Name>Trailer Sizes(LSTR=Wxh,LPAD=WxH)</Name>
+                        <Values>LSTR=480x272,LPAD=480x272</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimSpanishV5-FL.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: Spanish Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58367-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: Spanish Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Join Little Pim and his friends as they explore 60 Spanish words and phrases to describe feelings, from happy to sad. (33&amp;#45;minute video)&lt;br />&lt;br />Boost your Spanish vocabulary with other Little Pim videos&amp;#45also available in the LeapFrog App Center.</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58375-96914</ProductCode>
+                  <Name>Little Pim: Chinese Volume 5</Name>
+                  <Description>Explore emotions and feelings with Little Pim and his friends. From happy to sad and emotions in between, this language video introduces 60 Mandarin Chinese words and phrases...</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58375-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="screenshots">
+                        <Name>Screenshot Files(LSTR=file1.png,file2.png;LPAD=file1.png,file2.png)</Name>
+                        <Values>LSTR=little-pim-chinese-language-app-vol5_58375-96914_2.png,little-pim-chinese-language-app-vol5_58375-96914_3.png,little-pim-chinese-language-app-vol5_58375-96914_4.png,little-pim-chinese-language-app-vol5_58375-96914_5.png,little-pim-chinese-language-app-vol5_58375-96914_6.png||||LPAD=little-pim-chinese-language-app-vol5_58375-96914_2.png,little-pim-chinese-language-app-vol5_58375-96914_3.png,little-pim-chinese-language-app-vol5_58375-96914_4.png,little-pim-chinese-language-app-vol5_58375-96914_5.png,little-pim-chinese-language-app-vol5_58375-96914_6.png</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769960</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Chinese Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>61 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-04-30</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Chinese</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="trailerSizes">
+                        <Name>Trailer Sizes(LSTR=Wxh,LPAD=WxH)</Name>
+                        <Values>LSTR=480x272,LPAD=480x272</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimChineseV5-Foreign.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: Chinese Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58375-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: Chinese Volume 5 - Happy, Sad, and Silly</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Explore emotions and feelings with Little Pim and his friends. From happy to sad and emotions in between, this language video introduces 60 Mandarin Chinese words and phrases that little ones can use to describe how they feel. An award&amp;#45;winning foreign language series, Little Pim makes learning fun by turning everyday activities into adventures! (33&amp;#45;minute video)&lt;br />&lt;br />Boost your Mandarin Chinese vocabulary with other Little Pim videos&amp;#45also available in the LeapFrog App Center.</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58384-96914</ProductCode>
+                  <Name>Little Pim: German Volume 5</Name>
+                  <Description>Explore emotions and feelings with Little Pim and his friends. From happy to sad and emotions in between, this language video introduces 60 German words and phrases...</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58384-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769962</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early German Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>56 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-04-30</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>German</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimGermanV5-Foreign.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: German Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58384-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: German Volume 5 - Happy, Sad, and Silly</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Explore emotions and feelings with Little Pim and his friends. From happy to sad and emotions in between, this language video introduces 60 German words and phrases that little ones can use to describe how they feel. An award&amp;#45;winning foreign language series, Little Pim makes learning fun by turning everyday activities into adventures! (33&amp;#45;minute video)&lt;br />&lt;br />Boost your German vocabulary with other Little Pim videos&amp;#45also available in the LeapFrog App Center.</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58385-96914</ProductCode>
+                  <Name>Little Pim: Italian Volume 5</Name>
+                  <Description>Explore emotions and feelings with Little Pim and his friends. From happy to sad and emotions in between, this language video introduces 60 Italian words and phrases that little ones can use to describe how they feel.</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58385-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769963</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Italian Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>56 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-05-28</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Italian</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimItalianV5-Foreign.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: Italian Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58385-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: Italian Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Explore emotions and feelings with Little Pim and his friends. From happy to sad and emotions in between, this language video introduces 60 Italian words and phrases that little ones can use to describe how they feel. An award&amp;#45;winning foreign language series, Little Pim makes learning fun by turning everyday activities into adventures!  (33-minute video)&lt;br />&lt;br />Boost your Italian vocabulary with other Little Pim videos&amp;#45also available in the LeapFrog App Center.</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58374-96914</ProductCode>
+                  <Name>Little Pim Spanish: I Can Count</Name>
+                  <Description>1&amp;#45;2&amp;#45;3! Take a counting adventure in Spanish. From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends. This video from the award&amp;#45;winning...</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58374-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769994</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Spanish Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>49 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-06-25</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Spanish</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimSpanishCanCount-Foreign.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim Spanish: I Can Count</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58374-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="character">
+                        <Name>Character</Name>
+                        <Values>Little Pim</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim Spanish: I Can Count</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values><![CDATA[1&#45;2&#45;3! Take a counting adventure in Spanish. From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends. This video from the award&#45;winning language series introduces over 60 Spanish words and phrases.<br /><br />Boost your Spanish vocabulary with other Little Pim videos&#45also available in the LeapFrog App Center.]]></Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58389-96914</ProductCode>
+                  <Name>Little Pim Chinese: I Can Count</Name>
+                  <Description>1&amp;#45;2&amp;#45;3! Take a counting adventure in Chinese. From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends.</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58389-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769975</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Chinese Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>54 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-07-23</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Chinese</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimChineseICanCount.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim Chinese: I Can Count</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58389-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim Chinese: I Can Count</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values><![CDATA[1&#45;2&#45;3! Take a counting adventure in Chinese. From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends. This video from the award&#45;winning language series introduces over 60 Chinese words and phrases.<br /><br />Boost your Chinese vocabulary with other Little Pim videos &#45; also available in the LeapFrog App Center.]]></Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58368-96914</ProductCode>
+                  <Name>Little Pim: English/ESL Volume 5</Name>
+                  <Description>Join Little Pim and his friends as they explore 60 English words and phrases to describe feelings, from happy to sad.</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T01:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58368-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="screenshots">
+                        <Name>Screenshot Files(LSTR=file1.png,file2.png;LPAD=file1.png,file2.png)</Name>
+                        <Values>LSTR=little-pim-spanish-language-app_58368-96914_2.png,little-pim-spanish-language-app_58368-96914_3.png,little-pim-spanish-language-app_58368-96914_4.png,little-pim-spanish-language-app_58368-96914_5.png,little-pim-spanish-language-app_58368-96914_6.png||||LPAD=little-pim-spanish-language-app_58368-96914_2.png,little-pim-spanish-language-app_58368-96914_3.png,little-pim-spanish-language-app_58368-96914_4.png,little-pim-spanish-language-app_58368-96914_5.png,little-pim-spanish-language-app_58368-96914_6.png</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769959</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>56 MB</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-08-20</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>English/ESL</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="trailerSizes">
+                        <Name>Trailer Sizes(LSTR=Wxh,LPAD=WxH)</Name>
+                        <Values>LSTR=480x272,LPAD=480x272</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>little-pim-spanish-language-app_58368-96914.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: English/ESL Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58368-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="character">
+                        <Name>Character</Name>
+                        <Values>Little Pim</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: English/ESL Volume 5</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values>Join Little Pim and his friends as they explore 60 English words and phrases to describe feelings, from happy to sad. (43&amp;#45;minute video)&lt;br />&lt;br />Boost your English vocabulary with other Little Pim videos&amp;#45also available in the LeapFrog App Center.</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>languageapps</Values>
+                        <Values>littlepim</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58383-96914</ProductCode>
+                  <Name>Little Pim: English Volume 6</Name>
+                  <Description>1&amp;#45;2&amp;#45;3! Take a counting adventure in English From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends. This video from the award&amp;#45;winning lan...</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T03:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58383-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769995</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early English Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>49MB (LeapPad Ultra); 50MB (All Other Systems)</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-10-29</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>English</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimEnglishVolume6_Foreign_Language_58383-96914.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: English Volume 6</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58383-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: English Volume 6</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values><![CDATA[1&#45;2&#45;3! Take a counting adventure in English From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends. This video from the award&#45;winning language series introduces over 60 English words and phrases. (35&#45;minute video)<br /><br />Boost your English vocabulary with other Little Pim videos&#45;also available in the LeapFrog App Center.]]></Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>littlepim</Values>
+                        <Values>languageapps</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>58413-96914</ProductCode>
+                  <Name>Little Pim: Italian Volume 6</Name>
+                  <Description>1&amp;#45;2&amp;#45;3! Take a counting adventure in Italian. From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends. This video from the award&amp;#45;winning la...</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T03:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>10</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>58413-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_FRENCH</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_FRENCH</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>036-072</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1769978</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Early Italian Vocabulary</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>160MB (LeapPad Ultra); 56MB (All Other Systems)</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-10-15</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>1</Values>
+                        <Values>2</Values>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Italian</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="skill_en">
+                        <Name>Skill</Name>
+                        <Values>Creativity &amp; Life Skills</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>72</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Foreign Language</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>LittlePimItalianVolume6_ForeignLanguage_58413-96914.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>Little Pim: Italian Volume 6</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>58413-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>36</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>Little Pim: Italian Volume 6</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values><![CDATA[1&#45;2&#45;3! Take a counting adventure in Italian. From ladybugs and lollipops to dancing feet, explore and count all sorts of objects with Little Pim and his friends. This video from the award&#45;winning language series introduces over 60 Italian words and phrases. (35&#45;minute video)<br /><br />Boost your Italian vocabulary with other Little Pim videos&#45;also available in the LeapFrog App Center.]]></Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>littlepim</Values>
+                        <Values>languageapps</Values>
+                        <Values>little pim italian volume 6</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+               <Product>
+                  <Catalog>ROW_CATALOG</Catalog>
+                  <ProductCode>59267-96914</ProductCode>
+                  <Name>KIDZ BOP Christmas Party Hits</Name>
+                  <Description>Celebrate the season with KIDZ BOP Christmas Party! The brand new Christmas Party Album includes such great classics as &amp;quot;White Christmas&amp;quot; and &amp;quot;Jingle Bell Rock&amp;quot;. Plus kick off the New Year w...</Description>
+                  <Type>LFPRODUCTTYPE</Type>
+                  <TaxCode>DIGITAL</TaxCode>
+                  <Brand>LeapFrog</Brand>
+                  <StoreVisible>true</StoreVisible>
+                  <EnableDate>2011-01-01T03:00:00-08:00</EnableDate>
+                  <MinimumOrderQuantity>1</MinimumOrderQuantity>
+                  <AvailabilityRule>ALWAYS_AVAILABLE</AvailabilityRule>
+                  <DefaultCategoryCode>ALL</DefaultCategoryCode>
+                  <Price>
+                     <Currency>USD</Currency>
+                     <PriceTier>
+                        <Quantity>1</Quantity>
+                        <ListPrice>12.5</ListPrice>
+                     </PriceTier>
+                  </Price>
+                  <SkuCode>59267-96914</SkuCode>
+                  <Categories>
+                     <CategoryCode>LSTR_SAMPLE</CategoryCode>
+                     <CategoryCode>LPRD_SAMPLE</CategoryCode>
+                     <CategoryCode>LPAD_SAMPLE</CategoryCode>
+                     <CategoryCode>LSTR_MUSIC</CategoryCode>
+                     <CategoryCode>LPAD_MUSIC</CategoryCode>
+                     <CategoryCode>LPRD_MUSIC</CategoryCode>
+                  </Categories>
+                  <Attributes>
+                     <Attribute Key="gender_en">
+                        <Name>Gender</Name>
+                        <Values>girl</Values>
+                        <Values>boy</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeSorter">
+                        <Name>Age Range Sorter String</Name>
+                        <Values>060-144</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad_en">
+                        <Name>Works With LeapPad Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="topPick_en">
+                        <Name>Top Pick</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="gameLogNumber">
+                        <Name>Game Log Number</Name>
+                        <Values>1770199</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapReader_en">
+                        <Name>Works With LeapReader</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="teaches_en">
+                        <Name>Teaches</Name>
+                        <Values>Just for Fun!</Values>
+                     </Attribute>
+                     <Attribute Key="size_en">
+                        <Name>Size</Name>
+                        <Values>51MB (LeapReader); 91MB (All Other Systems)</Values>
+                     </Attribute>
+                     <Attribute Key="releaseDate">
+                        <Name>Release Date</Name>
+                        <Values>2013-11-12</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapster_en">
+                        <Name>Works With Leapster Explorer</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="comingSoon">
+                        <Name>Coming Soon</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageGroups">
+                        <Name>Age Groups</Name>
+                        <Values>3</Values>
+                        <Values>4</Values>
+                        <Values>5</Values>
+                     </Attribute>
+                     <Attribute Key="curriculum_en">
+                        <Name>Curriculum</Name>
+                        <Values>Just for Fun</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPad2_en">
+                        <Name>Works With LeapPad2</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="newItem_en">
+                        <Name>New Item</Name>
+                        <Values>false</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeEnd">
+                        <Name>Age Range End</Name>
+                        <Values>144</Values>
+                     </Attribute>
+                     <Attribute Key="pricingTier">
+                        <Name>Pricing Tier</Name>
+                        <Values>Tier 3.25</Values>
+                     </Attribute>
+                     <Attribute Key="contentType">
+                        <Name>Content Type</Name>
+                        <Values>Music</Values>
+                     </Attribute>
+                     <Attribute Key="imageName">
+                        <Name>Image Name</Name>
+                        <Values>KIDZ_BOP_Christmas_Party_Hits_Music_59267-96914.jpg</Values>
+                     </Attribute>
+                     <Attribute Key="hiddenName">
+                        <Name>Hidden Name</Name>
+                        <Values>KIDZ BOP Christmas Party Hits</Values>
+                     </Attribute>
+                     <Attribute Key="ratingsProductId">
+                        <Name>Ratings &amp; Reviews Product Id</Name>
+                        <Values>59267-96914</Values>
+                     </Attribute>
+                     <Attribute Key="ageRangeBegin">
+                        <Name>Age Range Begin</Name>
+                        <Values>60</Values>
+                     </Attribute>
+                     <Attribute Key="licensedContent">
+                        <Name>Licensed Content</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapsterGS_en">
+                        <Name>Works With LeapsterGS</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="longName_en">
+                        <Name>Long Name</Name>
+                        <Values>KIDZ BOP Christmas Party Hits</Values>
+                     </Attribute>
+                     <Attribute Key="longDescription_en">
+                        <Name>Long Description</Name>
+                        <Values><![CDATA[Celebrate the season with KIDZ BOP Christmas Party! The brand new Christmas Party Album includes such great classics as &quot;White Christmas&quot; and &quot;Jingle Bell Rock&quot;. Plus kick off the New Year with pop star party 5 bonus tracks, sung by kids for kids. (73&#45;minute album)<br /><br />Included songs:<br />All I Want For Christmas Is You<br />Blue Christmas <br />Caroling Caroling <br />Christmas Time Is Here <br />Christmas Wrapping <br />Deck The Halls <br />Do They Know It's Christmas (Feed The World) <br />Feliz Navidad <br />Frosty The Snowman <br />It's The Most Wonderful Time Of The Year <br />Jingle Bell Rock <br />Last Christmas <br />Rockin Around The Christmas Tree <br />Rudolph The Red&#45;Nosed Reindeer <br />Santa Claus Is Coming To Town <br />Silver Bells <br />The Twelve Days Of Christmas <br />White Christmas <br />Winter Wonderland <br />You're A Mean One, Mr. Grinch <br />Good Time <br />Let's Go <br />Starships <br />Tonight Is The Night <br />Don't Stop The Party<br/><br /><a href=# onClick=javascript:launchExternalLink('http://www.leapfrog.com/en_gb/appcenter/US_App_Credits/kbcph.html?utm_campaign=UPCAppCenter.credits?utm_campaign=UPCAppCenter.credits?utm_campaign=UPCAppCenter.credits');>Credits</a><br />]]></Values>
+                     </Attribute>
+                     <Attribute Key="worksWithLeapPadUltra_en">
+                        <Name>Works With LeapPad Ultra</Name>
+                        <Values>true</Values>
+                     </Attribute>
+                     <Attribute Key="searchSynonyms_en">
+                        <Name>Search Synonyms</Name>
+                        <Values>kidzbop</Values>
+                        <Values>xmas</Values>
+                        <Values>musicapps</Values>
+                        <Values>holidayapps</Values>
+                     </Attribute>
+                  </Attributes>
+               </Product>
+            </Products>
+            <Paging>
+               <Offset>500</Offset>
+               <MaxResults>100</MaxResults>
+               <TotalResults>513</TotalResults>
+            </Paging>
+            <Result>
+               <Status>SUCCESS</Status>
+               <Messages/>
+            </Result>
+         </return>
+      </ns2:getProductFeedResponseWrapper>
+   </S:Body>
+</S:Envelope>

@@ -1,0 +1,101 @@
+<% provide(:title, 'EP MOAS Importing') %>
+<div class='glb-loader'>
+  <div></div>
+</div>
+
+<div class='col-xs-offset-3'>
+  <div class='content-header'>
+    <div class='header-inner'>
+      <h2>EP MOAS importing</h2>
+
+      <p class='subheader'>
+        1. Importing data is in <b>the first</b> sheet of files <br/>
+        2. Column header is on <b>the first</b> row. <br/>
+        3. Let Catalog or YMAL excel file fields empty if you don't want to import them.
+      </p>
+    </div>
+  </div>
+  <%= form_tag({ controller: 'ep_moas_importings', action: 'excel2mysql' }, method: 'post', multipart: true, class: 'form-horizontal') do %>
+    <div class='form-group'>
+      <%= label_tag :language, 'Language', class: 'col-sm-2 control-label' %>
+      <div class='col-sm-5'>
+        <div id='language' class='btn-group btn-group-sm hidden-input'>
+          <% [['English', 'english'], ['French', 'french']].each do |l| %>
+            <label class='btn btn-default'>
+              <%= radio_button_tag :language, l[1] %><span><%= l[0] %></span>
+            </label>
+          <% end %>
+        </div>
+      </div>
+    </div>
+    <div class='form-group'>
+      <%= label_tag(:excel_file, 'MOAS file', class: 'col-sm-2 control-label') %>
+      <div class="col-sm-5">
+        <div class="input-group">
+          <input type="text" class="form-control" readonly>
+          <span class="input-group-btn">
+            <span class="btn btn-default btn-file">
+              Browse&hellip; <%= file_field_tag :excel_file%>
+            </span>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class='form-group'>
+      <%= label_tag(:excel_catalog_file, 'Catalog file', class: 'col-sm-2 control-label') %>
+      <div class="col-sm-5">
+        <div class="input-group">
+          <input type="text" class="form-control" readonly>
+        <span class="input-group-btn">
+          <span class="btn btn-default btn-file">
+            Browse&hellip; <%= file_field_tag :catalog_excel_file, title: 'Let me empty if you don\'t want to import catalog file'%>
+          </span>
+        </span>
+        </div>
+      </div>
+    </div>
+    <div class='form-group'>
+      <%= label_tag(:excel_ymal_file, 'YMAL file', class: 'col-sm-2 control-label') %>
+      <div class="col-sm-5">
+        <div class="input-group">
+          <input type="text" class="form-control" readonly>
+        <span class="input-group-btn">
+          <span class="btn btn-default btn-file">
+            Browse&hellip; <%= file_field_tag :excel_ymal_file, title: 'Let me empty if you don\'t want to import YMAL file'%>
+          </span>
+        </span>
+        </div>
+      </div>
+    </div>
+
+    <div class='form-group'>
+      <div class='col-sm-offset-2 col-sm-2'>
+        <%= submit_tag('Import data', class: 'btn btn-success', disabled: 'disabled', :onclick => 'return fn_import();') %>
+      </div>
+    </div>
+    <div class='form-group'>
+      <div>
+        <%= raw @message %>
+      </div>
+      <%= hidden_field_tag(:hid_selected_language, session[:hid_selected_language]) %>
+    </div>
+  <% end %>
+</div>
+
+<script type='text/javascript'>
+  $(document).ready(function () {
+    $("input[value='english']").attr('checked', true);
+    $('label:has(input:checked)').addClass('active');
+    <%if !session[:hid_selected_language].nil? and session[:hid_selected_language]!=''%>
+    document.getElementById('language_<%= session[:hid_selected_language]%>').checked = true;
+    <%end%>
+    // enable import button when selecting file
+    $('#excel_file').change(function () {
+      $("input[value='Import data']").prop('disabled', false);
+    });
+  });
+  function fn_import() {
+    $('.glb-loader').show();
+    return;
+  }
+</script>

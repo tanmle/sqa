@@ -1,0 +1,12 @@
+<div class="glb-loader-small">
+  <div></div>
+</div>
+<div class='dashboard'>
+  <h1>Daily Results</h1>
+  <h2>
+  <small><%= link_to raw('<span class="glyphicon glyphicon-chevron-left"/>'), "/dashboard/test_run_details/#{@previous_date}" %></small>
+  <%= @date %>
+	<small><%= link_to raw('<span class="glyphicon glyphicon-chevron-right"/>'), "/dashboard/test_run_details/#{@next_date}" %></small>
+  </h2>
+  <%= render 'shared/run_results' %>
+</div>

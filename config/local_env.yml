@@ -1,0 +1,62 @@
+# Rename this file to local_env.yml
+# Add account settings and API keys here.
+# This file should be listed in .gitignore to keep your settings secret!
+# Each entry gets set as a local environment variable.
+# This file overrides ENV variables in the Unix shell.
+# For example, setting:
+# GMAIL_USERNAME: 'Your_Gmail_Username'
+# makes 'Your_Gmail_Username' available as ENV["GMAIL_USERNAME"]
+
+# table
+TCT_TESTSUITE_TABLE: 'atg_testsuite'
+TCT_TESTCASE_TABLE: 'atg_testcase'
+ATG_TRACKING_TABLE: 'atg_tracking'
+ATG_LOADPATH: 'automations/atg_automation'
+ATG_GET_TRACKING_DATA_SQL: "select email, address1 from atg_tracking where email like '%%atg_%s_%s%%'" #%s: environment, %s: locale
+ATG_GET_TESTCASEID_F_TESTSUITE_SQL: "select testcase_id from atg_testsuite where id='%s.to_i}'" #%s: testsuite_id
+ATG_GET_TESTCASE_F_TESTCASE_SQL: "select testcase, friendlyname from atg_testcase where id in %s" #%s: testcase_id_string
+ATG_GET_TESTSUITE_SQL: "select friendlyname,id from atg_testsuite"
+ATG_XMLDATA_PATH: 'automations/atg_automation/lib/data.xml'
+ATG_GET_CODE_TYPE_SQL: 'select type, id from atg_code_type'
+WEBSERVICE_LOADPATH: 'automations/web_services'
+WEBSERVICE_XMLDATA_PATH: 'automations/web_services/lib/data.xml'
+EP_LOADPATH: 'automations/ep_automation'
+EP_XMLDATA_PATH: 'automations/ep_automation/lib/data.xml'
+TC_LOADPATH: 'spec'
+CONFIG_FILE: 'config/config.xml'
+MACHINE_FILE: 'config/machine.xml'
+
+# rspec customization lib
+RSPEC_REPORT_LIB: 'automations/lib'
+
+# web service method variables
+CONST_CHILD_MGT: 'ChildManagementService'
+CONST_CUSTOMER_MGT: 'CustomerManagementService'
+CONST_AUTHENTICATION: 'AuthenticationService'
+CONST_DEVICE_MGT: 'DeviceManagementService'
+CONST_OWNER__MGT: 'OwnerManagementService'
+CONST_DEVICE_PROFILE_MGT: 'DeviceProfileManagementService'
+CONST_PACKAGE_MGT: 'PackageManagementService'
+CONST_LICENSE_MGT: 'LicenseManagementService'
+CONST_REWARD_SERVICE: 'RewardService'
+CONST_DEVICE_PROFILE_CONTENT: 'DeviceProfileContentService'
+CONST_DEVICE_LOG_UPLOAD: "#{LFSOAP::CONST_DEVICE_LOG_UPLOAD_LINK}/DeviceLogUploadService"
+CONST_ASSET: 'AssetService'
+CONST_CONTAINER_MGT: 'ContainerManagementService'
+CONST_CALLER_ID: 'CallerIdService'
+CONST_CONTENT_FEED: 'ContentFeedService'
+CONST_CURRICULUM: 'CurriculumService'
+CONST_PIN_MGT: 'PinManagementService'
+CONST_SOFT_GOOD_MGT: 'SoftGoodManagementService'
+CONST_MICROMOD_STORE: 'MicromodStoreService'
+CONST_PRODUCT_REGISTRATION: 'ProductRegistrationService'
+CONST_RECOMMENDATION: 'RecommendationService'
+CONST_SURVEY: 'SurveyService'
+
+# WebService WSDL
+CONST_PROD_FEED_WSDL: 'http://emqlacws.leapfrog.com:8080/webservices/productfeedwebservice?wsdl'
+
+CONST_CALLER_ID: '755e6f29-b7c8-4b98-8739-a1a7096f879e'
+CONST_SESSION_QA: 'f67e22fa-6049-4640-aa38-4dfe74dbd269'
+CONST_SESSION_STAGING: 'c1497dda-bd9f-4075-9168-2987ddae2e9c'
+CONST_SESSION_PROD: 'b3f0fd80-d903-45da-a181-cf8f2485f042'

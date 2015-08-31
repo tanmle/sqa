@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<data>
+	<information>
+      <webdriver>CHROME</webdriver>
+	  <env>qa</env>
+      <locale>All</locale>
+      <releasedate>2014-09-17</releasedate>
+	</information>	
+</data>
