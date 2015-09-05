@@ -12,7 +12,7 @@ default: &default
 development: &development
   <<: *default
   username: root
-  password: sewxjoftlo
+  password: root@abc
   host: 127.0.0.1
 
 # used to verify the application and regenerate seeds file
@@ -25,5 +25,5 @@ test:
 production: &production
   <<: *default
   username: <%= ENV["RAILS_DB_USER"] || 'root' %>
-  password: <%= ENV["RAILS_DB_PASS"] || 'sewxjoftlo' %>
+  password: <%= ENV["RAILS_DB_PASS"] || 'root@abc' %>
   host: <%= ENV["RAILS_DB_HOST"] || '127.0.0.1' %> # use IP for Windows + thin servers

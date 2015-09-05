@@ -17,7 +17,7 @@ class SearchController < ApplicationController
       args = []
 
       condition.each do |key, value|
-        template << '(jsn_extract(data, ?)) = ? COLLATE utf8_general_ci and '
+        template << '(json_extract(data, ?)) = ? COLLATE utf8_general_ci and '
         args << "$.#{key}" << "\"#{value}\""
       end
 

@@ -152,7 +152,7 @@ class Run < ActiveRecord::Base
   # Warning: JSON run.data is not loaded in Run objects. Use run.reload to load run.data.
   def self.by_silo_group(silo, start_date = nil, end_date = nil, email = nil)
     filter = []
-    filter << "(jsn_extract(data, '$.silo')) = '\"#{silo}\"' COLLATE utf8_general_ci"
+    filter << "(json_extract(data, '$.silo')) = '\"#{silo}\"' COLLATE utf8_general_ci"
     filter << "date >= \"#{start_date}\"" unless start_date.nil?
     filter << "date <= \"#{end_date}\"" unless end_date.nil?
 
@@ -163,7 +163,7 @@ class Run < ActiveRecord::Base
 
     columns = 'id, user_id, date, percent_pass, case_count, note, created_at, updated_at'
     step_paths = Array.new(30) { |i| "'$.cases[#{i}].steps'" }
-    columns += ",jsn_remove(data, #{step_paths.join ','}) as data"
+    columns += ",json_remove(data, #{step_paths.join ','}) as data"
 
     runs = Run.select(columns).where(filter.join ' and ')
 
@@ -520,7 +520,7 @@ class Run < ActiveRecord::Base
   end
 
   def self.run_queue_by_schedule_id(schedule_id)
-    Run.where("status = 'queued' and (jsn_extract(data, '$.schedule_info.id')) = '?'", schedule_id)
+    Run.where("status = 'queued' and (json_extract(data, '$.schedule_info.id')) = '?'", schedule_id)
   end
 
   def self.add_to_run_queue(data, location, created_at, user_id)
