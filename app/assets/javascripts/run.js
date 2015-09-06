@@ -248,3 +248,28 @@ $(document).ready(function () {
   clearValidation('#testsuite');
   clearValidation('#testcase');
 });
+function reRunTest(silo, browser, env, locales, test_suites, test_cases, release_date, data_driven_csv, device_store, payment_types, description, emails, station)
+{
+    var myData = {
+        'silo': silo,
+        'webdriver': browser,
+        'env': env,
+        'locale': locales,
+        'test_suite': test_suites,
+        'testrun': test_cases,
+        'release_date': release_date,
+        'data_driven_csv': data_driven_csv,
+        'device_store': device_store,
+        'payment_type': payment_types,
+        'note': description,
+        'user_email': emails,
+        'station': station
+    };
+
+    return $.ajax({
+        type: 'POST',
+        url: '/run/add_queue',
+        data: myData,
+        dataType: 'html'
+    });
+}

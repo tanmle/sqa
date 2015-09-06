@@ -20,6 +20,16 @@ module Run::ViewRun
     summary['Device Store'] = data['device_store'] unless data['device_store'].blank?
     summary['TC Version'] = data['tc_version']
 
+    data["cases"].each do |c|
+      @file_name = c["file_name"]
+    end
+    @file_name = data["suite_path"]+'/'+@file_name
+    @test_case = Case.get_case(data["silo"],@file_name)
+
+    @case_id = @test_case["id"]
+
+    @suite_name = data["suite_name"]
+
     # Schedule information
     unless data['schedule_info'].nil?
       summary['Description'] = data['schedule_info']['description'] unless data['schedule_info']['description'].blank?
@@ -57,6 +67,7 @@ module Run::ViewRun
       <span class="n_a">Uncertain:</span><span> #{data['total_uncertain']}</span>
     </div>
     <div><p class="text-right"><a href="#{root_url}/search?q=#{query_string}">see similar</a></p></div>
+    <a onclick=\"reRunTest(#{data["silo"]},#{data["web_driver"]},#{data["env"]},#{data["locale"]},#{@case_id},57,#{data["release_date"]},#{data["data_driven_csv"]},#{data["device_store"]},#{data["payment_type"]},#{data["note"]},#{data["user_email"]},#{data["station"]})\">Re-run test #{@case_id}</a>
     INTERPOLATED_HEREDOC
   rescue => e
     Rails.logger.error "Exception closing ActiveRecord db connection >>> #{ModelCommon.full_exception_error e}"
