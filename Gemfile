@@ -12,7 +12,7 @@ gem 'uglifier', '2.7.1'               # compressor for JavaScript assets
 
 # Test Automation
 gem 'capybara', '2.4.4'
-#gem 'capybara-webkit', '1.4.1'
+gem 'capybara-webkit', '1.4.1'
 gem 'rest-client', '1.8.0'            # REST client
 gem 'roadie', '3.0.5'                 # embed css to inline html
 gem 'roadie-rails', '1.0.6'           # roadie 3.0.5 dependency
